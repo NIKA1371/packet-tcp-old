@@ -3,8 +3,8 @@ set -e
 
 INSTALL_DIR="/root/packettunnel"
 SERVICE_FILE="/etc/systemd/system/packettunnel.service"
-CORE_URL="https://raw.githubusercontent.com/NIKA1371/test/main/core.json"
-WATERWALL_URL="https://raw.githubusercontent.com/NIKA1371/test/main/Waterwall"
+CORE_URL="https://raw.githubusercontent.com/NIKA1371/packet-tcp-old/main/core.json"
+WATERWALL_URL="https://raw.githubusercontent.com/NIKA1371/packet-tcp-old/main/Waterwall"
 
 log() {
     echo -e "[+] $1"
